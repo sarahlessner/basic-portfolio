@@ -1,11 +1,10 @@
-* {
-	box-sizing: border-box;
-}
+
 
 
 body {
 	background-image: url("../images/topography.png");
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	font-size: 12px;
 }
 
 h1 {
@@ -19,16 +18,17 @@ a {
 	text-decoration: none;
 }
 
-.container {
+
+
+#container {
 	background: #f1eef3;
 	width: 100%;
-	overflow: auto;
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	border-bottom: 1px solid #777777;
-	margin: 0;
+	
 }
 
 #myname {
@@ -39,6 +39,7 @@ a {
 	margin: 0 auto 0 150px;
 	float: left;
 	text-align: center;
+	position: relative;
 }
 
 #navigation {
@@ -46,6 +47,7 @@ a {
 	width: 30%;
 	text-align: right;
 	padding: 20px;
+	position: relative;
 }
 
 .navitem {
@@ -55,8 +57,46 @@ a {
 	padding: 5px;
 }
 
-footer {
+#content {
 	clear: both;
+	width: 100%;
+}
+
+#aboutmebox {
+	float: left;
+	background: #f1eef3;
+	height: 400px;
+	width: 600px;
+	padding: 20px;
+	overflow: scroll;
+	margin-top: 80px;
+	margin-left: 140px;
+}
+
+#aboutme {
+	color: #ab90f0;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #777777;
+
+}
+
+#mymug {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.textcontent {
+	line-height: 18px;
+	color: #777777;
+}
+
+#connect {
+	float: left;
+}
+
+
+footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
