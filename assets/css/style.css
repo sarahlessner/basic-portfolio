@@ -1,5 +1,7 @@
 
-
+* {
+	box-sizing: border-box;
+}
 
 body {
 	background-image: url("../images/topography.png");
@@ -18,17 +20,14 @@ a {
 	text-decoration: none;
 }
 
-
-
 #container {
 	background: #f1eef3;
 	width: 100%;
-	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	border-bottom: 1px solid #777777;
-	
+	position: absolute;
 }
 
 #myname {
@@ -36,7 +35,7 @@ a {
 	background: #ab90f0;
 	padding: 20px;
 	width: 20%;
-	margin: 0 auto 0 150px;
+	margin: 0 auto 0 160px;
 	float: left;
 	text-align: center;
 	position: relative;
@@ -45,9 +44,10 @@ a {
 #navigation {
 	float: right;
 	width: 30%;
-	text-align: right;
+	text-align: left;
 	padding: 20px;
 	position: relative;
+	margin-right: 200px;
 }
 
 .navitem {
@@ -60,6 +60,8 @@ a {
 #content {
 	clear: both;
 	width: 100%;
+	margin-top: 100px;
+	overflow: auto;
 }
 
 #aboutmebox {
@@ -69,8 +71,8 @@ a {
 	width: 600px;
 	padding: 20px;
 	overflow: scroll;
-	margin-top: 80px;
-	margin-left: 140px;
+	margin-left: 150px;
+	
 }
 
 #aboutme {
@@ -92,11 +94,33 @@ a {
 }
 
 #connect {
-	float: left;
+	float: right;
+	padding: 20px;
+	background: #f1eef3;
+	height: 180px;
+	width: 270px;
+	margin-right: 370px;
+	overflow: auto;
+
+}
+
+#connectme {
+	color: #ab90f0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #777777;
+	font-size: 16px;
+	text-align: center;
+}
+
+#icons {
+	position: relative;
+	padding-bottom: 20px;
+	padding-left: 10px;
 }
 
 
 footer {
+	clear: both;
 	position: absolute;
 	bottom: 0;
 	left: 0;
