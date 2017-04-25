@@ -78,7 +78,7 @@ a {
 #contentboxcontact {
 	float: left;
 	background: #f1eef3;
-	height: 475px;
+	height: 450px;
 	width: 600px;
 	padding: 20px;
 	overflow: auto;
@@ -104,6 +104,36 @@ a {
 	color: #777777;
 }
 
+#portfoliobox {
+	float: left;
+	background: #f1eef3;
+	min-height: 800px;
+	width: 600px;
+	padding: 20px;
+	margin-left: 150px;
+	margin-bottom: 90px;
+	overflow: auto;
+}
+
+.placeholderbox {
+	float: left;
+	padding: 15px;
+	position: relative;
+}
+
+.placeholderlinks {
+	background: #ab90f0;
+	color: #f1eef3;
+	text-align: center;
+	padding: 20px;
+	position: absolute;
+	right: 15px;
+	left: 15px;
+	bottom: 25px;
+	font-size: 14px;
+
+}
+
 #myform {
 	clear: both;
 	width: 100%;
@@ -115,6 +145,7 @@ a {
 	width: 100%;
 	height: 30px;
 	background: #f1eef3;
+	font-size: 14px;
 }
 
 #msgbox {
@@ -124,10 +155,11 @@ a {
 
 #submit {
 	position: relative;
+	bottom: 0;
 	background: #ab90f0;
 	color: #f1eef3;
 	padding: 5px 20px 5px 20px;
-
+	text-decoration: none;
 }
 
 #connect {
@@ -156,11 +188,9 @@ a {
 }
 
 
-
-
 footer {
 	clear: both;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
